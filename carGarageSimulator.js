@@ -21,7 +21,6 @@ function simulateGarage() {
     },
   };
 
-  console.log("--- Car Simulation ---");
 
   car.getDetails();
   car.drive(50);
