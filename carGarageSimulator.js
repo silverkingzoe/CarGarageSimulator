@@ -16,8 +16,8 @@ function simulateGarage() {
       console.log(`Brand: ${this.brand}, Model: ${this.model}, Year: ${this.year}, Mileage: ${this.mileage}`);
     },
 
-    service: () => {
-      console.log(`Service check for ${this?.brand}`);
+    service: function () {
+      console.log(`Service check for ${this.brand}`);
     },
   };
 
